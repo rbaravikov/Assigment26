@@ -1,6 +1,6 @@
 import './App.css'
 import Header from './header/header'
-
+import './images/lines.jpg'
 import Portfolio from './portfolio/portfolio'
 
 function App() {
