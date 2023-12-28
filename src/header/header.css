@@ -1,0 +1,16 @@
+div.header {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("./src/images/lines.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div.header {
+    text-align: center;
+    color: white;
+}
