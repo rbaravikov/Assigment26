@@ -1,7 +1,6 @@
 .header {
     height: 400px;
     align-items: center;
-    background: url("./src/images/lines.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
