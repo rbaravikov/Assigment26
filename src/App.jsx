@@ -1,7 +1,7 @@
 import './App.css'
 import Header from './header/header'
 
-import Portfolio from './portfolio'
+import Portfolio from './portfolio/portfolio'
 
 function App() {
   return (

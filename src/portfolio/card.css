@@ -1,0 +1,15 @@
+.card {
+    background: #F4F7F8;
+    max-height: 200px;
+    margin: 15px;
+}
+
+.card img{
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.card h4 {
+    text-align: center;
+    color: darkslategray;
+}

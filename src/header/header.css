@@ -1,16 +1,38 @@
-div.header {
+.header {
     height: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background: url("./images/lines.jpg");
+    background: url("./src/images/lines.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-div.header {
+.blur {
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(2px);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.header {
     text-align: center;
     color: white;
+}
+
+.header button {
+    background: #87B5B5;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+}
+
+.header h1 {
+    font-weight: 100;
 }
